@@ -44,10 +44,10 @@
     </scm>
 
     <modules>
-        <module>core</module>
-        <module>client</module>
+        <!-- <module>core</module> -->
+        <!-- <module>client</module> -->
         <module>schema-serializer</module>
-        <module>avro-serializer</module>
+        <!-- <module>avro-serializer</module>
         <module>json-serializer</module>
         <module>avro-data</module>
         <module>avro-converter</module>
@@ -65,7 +65,7 @@
         <module>json-schema-provider</module>
         <module>json-schema-serializer</module>
         <module>json-schema-serde</module>
-        <module>benchmark</module>
+        <module>benchmark</module> -->
     </modules>
 
     <properties>
@@ -312,12 +312,12 @@
                     <configuration>
                         <documentationUrl>https://docs.confluent.io/${project.version}/schema-registry/docs/connect.html</documentationUrl>
                         <sourceUrl>https://github.com/confluentinc/schema-registry</sourceUrl>
-                        
+
                         <supportProviderName>${project.organization.name}</supportProviderName>
                         <supportSummary>Confluent supports the Avro Converter alongside community members as part of its Confluent Platform offering.</supportSummary>
                         <supportUrl>https://docs.confluent.io/current/</supportUrl>
                         <supportLogo>logos/confluent.png</supportLogo>
-                        
+
                         <ownerUsername>confluentinc</ownerUsername>
                         <ownerType>organization</ownerType>
                         <ownerName>${project.organization.name}</ownerName>

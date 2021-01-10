@@ -1,6 +1,14 @@
 Schema Registry
 ================
 
+Build NfacctdStrategy
+-------------
+
+```bash
+$ mvn package -DskipTests
+$ ls .\schema-serializer\target\kafka-schema-serializer-6.0.1.jar
+```
+
 Schema Registry provides a serving layer for your metadata. It provides a
 RESTful interface for storing and retrieving Avro schemas. It stores a versioned
 history of all schemas, provides multiple compatibility settings and allows
